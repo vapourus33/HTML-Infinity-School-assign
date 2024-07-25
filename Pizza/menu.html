@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="shortcut icon" href="P_J.ico" type="image/x-icon" />
+    <link rel="icon" href="P_J.ico" type="image/ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza & Java</title>
+</head>
+<style>
+    .midbox{
+        display: flex;
+        flex-wrap: nowrap;
+        background: radial-gradient(circle, yellowgreen, yellow);
+        align-items: center;
+        justify-content: center;
+        height: 650px;
+        width: 1400px;
+        border: 5px solid black;
+    }
+    .pizzabox{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 4px solid gray;
+        margin: 40px;
+    }
+    .pizzaname{
+        font: 3em sans-serif;
+        margin: 10px;
+    }
+    #pizzaphoto{
+        width: 320px;
+        height: 309px;
+        border: 5px solid rgb(25, 25, 25);
+        border-radius: 180px;
+    }
+    .pizzadesc{
+        font: 2em sans-serif;
+        margin: 10px;
+    }
+    .cartbutton{
+        display: flex;
+        flex-wrap: nowrap;
+        border-radius: 30px;
+        background: radial-gradient(circle, #54CC14, #09ff00);
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 70px;
+        margin: 15px;
+    }
+    #buytext{
+        font: 2em sans-serif;
+        color: black;
+        border: 4px solid white;
+        text-decoration: none;
+    }
+    .cartbutton:hover{
+        display: flex;
+        flex-wrap: nowrap;
+        border-radius: 40px;
+        background: radial-gradient(circle, #54CC14, #09ff00);
+        align-items: center;
+        justify-content: center;
+        width: 180px;
+        height: 84px;
+        margin: 15px;
+    }
+    #buytext:hover{
+        font: 2.4em sans-serif;
+        color: black;
+        border: 4px solid white;
+        text-decoration: none;
+    }
+    .cartbutton:active{
+        display: flex;
+        flex-wrap: nowrap;
+        border-radius: 40px;
+        background: radial-gradient(circle, #40b700, #3fb500);
+        align-items: center;
+        justify-content: center;
+        width: 180px;
+        height: 84px;
+        margin: 15px;
+    }
+    #secretpage{
+        text-decoration: none;
+        color: black;
+    }
+</style>
+<body>
+    <div class="cap">
+        <div>
+            <h1 id="name">Pizza and Java</h1>     
+        </div>
+    </div>
+    <div class="head">
+        <div class="texthead">
+            <a class="hreftext" href="http://127.0.0.1:5500/Pizza/home.html">HOME</a>
+        </div>
+        <div class="texthead">
+            <a class="hreftext" href="http://127.0.0.1:5500/Pizza/menu.html">MENU</a>
+        </div>
+        <div class="texthead">
+            <a class="hreftext" href="http://127.0.0.1:5500/Pizza/home.html">ABOUT</a>
+        </div>
+        <div class="texthead">
+            <a class="hreftext" href="http://127.0.0.1:5500/Pizza/home.html">REVIEW</a>
+        </div>
+    </div>
+    <div class="mid">
+        <div class="midbox">
+            <div class="pizzabox">
+                <div class="pizzaname">Java Combo</div>
+                <div class="pizzaicon">
+                    <img id="pizzaphoto" src="https://www.freeiconspng.com/thumbs/pizza-png/pizza-png-15.png" alt="">
+                </div>
+                <div class="pizzadesc"> A Mushroom and Chesse pizza to go<br>
+                    with a nice 17oz (500ml) big cup of<br>
+                    coffe to wake you up to the Thrillig<br>
+                    Task of fixing the cluncky big codes
+                </div>
+                <div class="cartbutton">
+                    <a id="buytext" href="">ORDER $39.99</a>
+                </div>
+            </div>
+            <div class="pizzabox">
+                <div class="pizzaname">C++ Companion</div>
+                <div class="pizzaicon">
+                    <img id="pizzaphoto" src="https://i.pinimg.com/originals/8e/67/af/8e67af201ab445a19b006377defcb7e6.png" alt="">
+                </div>
+                <div class="pizzadesc">A very Dotty and Salty pizza made for<br>
+                    the classic taste of the arduino Bots<br>
+                    and their programmers containing the<br>
+                    good and old Peperroni as is the C++<br>
+                </div>
+                <div class="cartbutton">
+                    <a id="buytext" href="">ORDER $34.99</a>
+                </div>
+            </div>
+            <div class="pizzabox">
+                <div class="pizzaname">Python Special</div>
+                <div class="pizzaicon">
+                    <img id="pizzaphoto" src="https://www.freeiconspng.com/thumbs/pizza-png/pizza-png-13.png" alt="">
+                </div>
+                <div class="pizzadesc">A very Green pizza containing Chesse,<br> 
+                    tomato sauce, pickle, salsa leaf, cherry<br>
+                    tomato and white onion its a nice taste<br>
+                    <a id="secretpage" href="http://127.0.0.1:5500/Pizza/deadsec_home.html">for creating plugins and scripts (0-0)</a>
+                </div>
+                <div class="cartbutton">
+                    <a id="buytext" href="">ORDER $29.99</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

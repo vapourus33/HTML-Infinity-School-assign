@@ -1,0 +1,23 @@
+body{
+    background-image: url("Dedsec bg.png");
+    font-family: Arial, sans-serif;
+}
+
+.login {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 580px;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+    font: sans-serif;
+    font-size: 15px;
+}
